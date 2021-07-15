@@ -11225,7 +11225,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 .personal-profile .personal-profile__work {
     font-size: 16px;
     line-height: 24px;
-    margin-bottom: 40px
+    margin-bottom: 30px
 }
 
 .personal-profile .personal-profile__contacts {
@@ -11258,7 +11258,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 }
 
 .main-header:before {
-    background: linear-gradient(54deg, rgba(45, 45, 45, .95) 34%, rgba(45, 45, 45, .95));
+    background: linear-gradient(54deg, rgba(45, 45, 45, .90) 34%, rgba(45, 45, 45, .95));
     height: 100%;
     left: 0;
     right: 0;
@@ -11878,12 +11878,12 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 }
 
 .progress-list .progress {
-    height: 6px;
+    height: 10px;
     margin-bottom: 30px
 }
 
 .progress-list .progress .progress-bar {
-    background-color: #4a4a4a
+    background-color: #6d56c1
 }
 
 .portfolio-modal .modal-content {
