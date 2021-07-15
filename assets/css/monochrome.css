@@ -11531,7 +11531,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 }
 
 .resume-list .resume-list__block {
-    border-left: 2px solid #4a4a4a;
+    border-left: 2px solid #6d56c1;
     padding-left: 25px;
     padding-bottom: 50px
 }
@@ -11543,7 +11543,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 .resume-list .resume-list__block:before {
     width: 12px;
     height: 12px;
-    border: 2px solid #4a4a4a;
+    border: 2px solid #6d56c1;
     position: absolute;
     content: "";
     border-radius: 50%;
@@ -11557,7 +11557,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 
 .resume-list .resume-list__block-title {
     text-transform: uppercase;
-    color: #4a4a4a;
+    color: #6d56c1;
     font-size: 14px;
     line-height: 20px;
     font-family: Roboto Mono, monospace;
