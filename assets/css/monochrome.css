@@ -1,11 +1,4 @@
 @charset "UTF-8";
-/*!
- * Bootstrap v4.0.0-beta (https://getbootstrap.com)
- * Copyright 2011-2017 The Bootstrap Authors
- * Copyright 2011-2017 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-
 @media print {
     *, :after, :before {
         text-shadow: none!important;
@@ -1027,7 +1020,9 @@ pre code {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 41.66667%;
         flex: 0 0 41.66667%;
-        max-width: 41.66667%
+        max-width: 100%
+        
+        
     }
     .col-lg-6 {
         -webkit-box-flex: 0;
@@ -1039,7 +1034,8 @@ pre code {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 58.33333%;
         flex: 0 0 58.33333%;
-        max-width: 58.33333%
+        max-width: 100%
+        
     }
     .col-lg-8 {
         -webkit-box-flex: 0;
@@ -12365,4 +12361,16 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 
 .style-switcher.style-switcher--active {
     right: 0
+}
+.badge{
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+}
+.columnbadge{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
 }
