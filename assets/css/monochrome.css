@@ -48,9 +48,9 @@
 }
 
 html {
-    font-family: sans-serif
+    font-family: sans-serif;
+    scroll-behavior: smooth;
 }
-
 @-ms-viewport {
     width: device-width
 }
@@ -12412,4 +12412,41 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
         min-height: 1px;
         padding: 5px;
     }
+}
+.gotopbtn{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #4a4a4a;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 22px;
+}
+
+.gotopbtn:hover{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #252525;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 22px;
+}
+.topdiv a{
+  color: #fdfdfd;
+}
+
+@media screen and (max-width:990px) {
+    .gotopbtn{
+        display: none;
+      }
+      
 }

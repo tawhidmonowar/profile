@@ -14,3 +14,4 @@ $('.style-switcher__link--color').click(function (){
 $('.style-switcher__link--mono').click(function (){
     $('link[href="assets/css/color.css"]').attr('href','assets/css/monochrome.css');
 });
+
