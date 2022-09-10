@@ -4,6 +4,9 @@
     --background: #E4F9F5;
     --text-color: #66BFBF;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     color: #40514E;
     margin: 0px;
@@ -19,7 +22,7 @@ h1 {
 }
 h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: normal;
     color: var(--text-color);
 }
@@ -87,7 +90,7 @@ nav a:hover {
 }
 .button-up {
     height: 100%;
-    width: 1.5rem;
+    width: 1.2rem;
     background-color: #F0F0F0;
     position: fixed;
     z-index: 99;
@@ -108,6 +111,9 @@ nav a:hover {
     background-color: var(--background);
     position: relative;
     padding-top: 100px;
+}
+.tag-line {
+    margin: 0;
 }
 .middle-section {
     text-align: center;
